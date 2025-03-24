@@ -1,0 +1,9 @@
+I chose as my application calculator.py.
+I used an official Python runtime as a base image: Python:3.9
+I copied my files into the container by using the command ADD.
+I installed my dependencies from the requirements.txt by using the command RUN.
+I used the command EXPOSE 8080, which is giving the ability yo my app to be reachable via this port from outside the container
+And finnally to RUN the python app I used the command CMD.
+docker build -t python-calculator . -this command I used to build my application
+I did the setup for the docker on docker hub and Git, but I was unnable to push the image
+I tried to push everything also from docker desktop, but still unable to do so.
